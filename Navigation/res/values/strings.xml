@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Navigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_home">Home</string>
+    <string name="action_addtask">Add</string>
+    <string name="action_viewtask">View</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

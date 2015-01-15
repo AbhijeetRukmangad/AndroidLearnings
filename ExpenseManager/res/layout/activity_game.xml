@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gameactivity_txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/gameactivity_layout_playarea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/game_border"
+        android:gravity="center" >
+
+        <!--
+        <Button
+            android:id="@+id/gameactivity_btn_00"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/gameactivity_btn_01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/gameactivity_btn_00" />
+
+        <Button
+            android:id="@+id/gameactivity_btn_10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/gameactivity_btn_00" />
+
+        <Button
+            android:id="@+id/gameactivity_btn_11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/gameactivity_btn_01"
+            android:layout_toRightOf="@id/gameactivity_btn_10" />
+        -->
+    </RelativeLayout>
+
+</LinearLayout>
